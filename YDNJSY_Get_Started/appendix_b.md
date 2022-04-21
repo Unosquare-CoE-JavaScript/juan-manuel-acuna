@@ -1,6 +1,7 @@
-#Appendix B: Practice, Practice, Practice!
+# Appendix B: Practice, Practice, Practice!
 
-####Practicing Comparisons
+#### Practicing Comparisons
+
 `scheduleMeeting(..)` should take a start time (in 24-hour format as a string “hh:mm”) and a meeting duration (number of minutes). It should return true if the meeting falls entirely within the work day (according to the times specified in `dayStart` and `dayEnd`); return false if the meeting violates the work day bounds.
 
 ```jsx
@@ -21,7 +22,7 @@ scheduleMeeting("18:00", 15); // false
 ```
 
 <hr/>
-####Practicing Closure
+#### Practicing Closure
 The `range(..)` function takes a number as its first argument, representing the first number in a desired range of numbers. The second argument is also a number representing the end of the desired range (inclusive). If the second argument is omitted, then another function should be returned that expects that argument.
 
 ```jsx
@@ -42,7 +43,8 @@ start3(0); // []
 start4(6); // [4,5,6]
 ```
 
-####Practicing Prototypes
+#### Practicing Prototypes
+
 Define a slot machine with three reels that can individually `spin()`, and then `display()` the current contents of all the reels.
 The basic behavior of a single reel is defined in the `reel` object below. But the slot machine needs individual `reels objects` that delegate to `reel`, and which each have a `position` property.
 A `reel` only _knows how_ to `display()` its current slot symbol, but a slot machine typically shows three symbols per reel: the current `slot(position)`, one slot above `(position - 1)`, and one slot below `(position + 1)`. So displaying the slot machine should end up displaying a 3 x 3 grid of slot symbols.
@@ -98,7 +100,7 @@ slotMachine.display();
 #SOLUTIONS
 In this chapter (appendix) I'm going to present the solution propossed by the author, and then mine. Obviously I reached my solution without seeing the author's solution (that's the idea, right?).
 
-####Practicing Comparisons
+#### Practicing Comparisons
 
 ```jsx
 // AUTHOR SOLUTION
@@ -196,7 +198,7 @@ console.log(scheduleMeeting("18:00", 15)); // false
 
 In both cases, the solutions were achieved.
 
-####Practicing Closure
+#### Practicing Closure
 
 ```jsx
 // AUTHOR SOLUTION
@@ -276,7 +278,7 @@ Well, in this case, I have to say, my solution was pretty close to the author's 
 
 In both cases, the solutions were achieved.
 
-####Practicing Prototypes
+#### Practicing Prototypes
 
 ```jsx
 // AUTHOR SOLUTION

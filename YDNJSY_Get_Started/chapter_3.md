@@ -1,10 +1,10 @@
-#Chapter 3
+# Chapter 3
 
-####Iteration
+#### Iteration
 
 - The importance of the iterator pattern is in adhering to a standard way of processing data iteratively, which creates cleaner and easier to understand code, as opposed to having every data structure/source define its own custom way of handling its data.
 - The iterator pattern defines a data structure called an “iterator” that has a reference to an underlying data source, which exposes a method like `next()`, whose return is an object called an _iterator result_; the object has value and done properties, where done is a boolean that is false until the iteration over the underlying data source is complete.
-  ####Consuming Iterators
+  #### Consuming Iterators
 - ES6 included several mechanisms (syntax and APIs) for standardized consumption of these iterators.
 - One such mechanism is the for..of loop:
 
@@ -20,7 +20,7 @@
     // ..
 ```
 
-####The `...` Operator
+#### The `...` Operator
 
 - This operator actually has two symmetrical forms: _spread_ and _rest_ (or _gather_).
 - The _spread_ form is an iterator-consumer.
@@ -44,7 +44,7 @@ var vals = [...it];
 doSomethingUseful(...it);
 ```
 
-####Iterables
+#### Iterables
 
 - The iterator-consumption protocol is technically defined for consuming iterables; an iterable is a value that can be iterated over.
 - Since arrays are iterables, we can shallow-copy an array using iterator consumption via the ... spread operator:
@@ -97,7 +97,7 @@ for (let [idx, val] of arr.entries()) {
 // [2]: 30
 ```
 
-####Closure
+#### Closure
 
 - Closure is when a function remembers and continues to access variables from outside its scope, even when the function is executed in a different scope.
 - Closure is part of the nature of a function (then, objects don’t get closures, functions do).
@@ -153,7 +153,7 @@ getSomeData("https://some.url/wherever");
 // Response (from https://some.url/wherever): ...
 ```
 
-####`this` Keyword
+#### `this` Keyword
 
 - Is **_not_** a reference to the function itself, nor pointing to the instance that a method belongs to.
 - When a function is defined, it is attached to its enclosing scope via closure. Scope is the set of rules that controls how references to variables are resolved.
@@ -189,7 +189,8 @@ assignment.call(otherHomework);
 ```
 
 The benefit of `this-aware` functions —and their dynamic context— is the ability to more flexibly re-use a single function with data from different objects. A function that closes over a scope can never reference a different scope or set of variables. But a function that has dynamic this context awareness can be quite helpful for certain tasks.
-####Prototypes
+
+#### Prototypes
 
 - A prototype is a characteristic of an object, and specifically resolution of a property access.
 - Think about a prototype as a linkage between two objects. This prototype linkage occurs when an object is created; it’s linked to another object that already exists.
@@ -207,7 +208,7 @@ var homework = {
 homework.toString(); // [object Object]
 ```
 
-####Object Linkage
+#### Object Linkage
 
 - To define an object prototype linkage, you can create the object using the Object.create(..) utility:
 
@@ -231,7 +232,7 @@ otherHomework.topic; // "Math"
 homework.topic; // "JS" -- not "Math"
 ```
 
-####`this`Revisited
+#### `this`Revisited
 
 ```jsx
 var homework = {
