@@ -1,4 +1,4 @@
-#Chapter 1
+# Chapter 1
 
 - JavaScript name was a marketing ploy to try to position this language as a palatable alternative to writing the heavier and more well-known Java of the day.
 
