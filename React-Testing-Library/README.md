@@ -25,7 +25,13 @@
 <h4 align='center'>By: Bonnie Schulkin</h4>
 <h4 align='center'>https://www.udemy.com/course/react-testing-library/</h4>
 
-## Notes of the course
+### Index
+
+##### [Color Button](https://github.com/Unosquare-CoE-JavaScript/juan-manuel-acuna/tree/training/React-Testing-Library/color-button)
+
+##### [Sundaes on Demand](https://github.com/Unosquare-CoE-JavaScript/juan-manuel-acuna/tree/training/React-Testing-Library/sundaes-on-demand)
+
+#### Notes of the course
 
 - RTL is an opinionated testing library, that means it encourage you to follow certain good practices.
 - Mainly, this library is designed to test the behavior, not how the code is written.
