@@ -14,29 +14,25 @@
 
 ### Redux without React
 
-##### [Redux API's & Compose](https://github.com/Unosquare-CoE-JavaScript/juan-manuel-acuna/tree/master/)
+##### [Redux without React](https://github.com/Unosquare-CoE-JavaScript/juan-manuel-acuna/tree/training/Redux-fundamentals/course/01_redux_without_react)
 
-##### [Redux Stores & Reducers](https://github.com/Unosquare-CoE-JavaScript/juan-manuel-acuna/tree/master/)
+##### [Hooking it up with React](https://github.com/Unosquare-CoE-JavaScript/juan-manuel-acuna/tree/training/Redux-fundamentals/course/02-hooking-it-up-with-react)
 
-##### [Redux Stores & Dispatch](https://github.com/Unosquare-CoE-JavaScript/juan-manuel-acuna/tree/master/)
+##### [Connecting Redux with React](https://github.com/Unosquare-CoE-JavaScript/juan-manuel-acuna/tree/training/Redux-fundamentals/course/03-connecting-redux-to-react)
 
-##### [Action Creators](https://github.com/Unosquare-CoE-JavaScript/juan-manuel-acuna/tree/master/)
+##### [Redux toolkit and State Slices](https://github.com/Unosquare-CoE-JavaScript/juan-manuel-acuna/tree/training/Redux-fundamentals/course/04-redux-toolkit-and-state-slices)
 
-##### [Settings Initial State](https://github.com/Unosquare-CoE-JavaScript/juan-manuel-acuna/tree/master/)
+##### [Starwars Redux](https://github.com/Unosquare-CoE-JavaScript/juan-manuel-acuna/tree/training/Redux-fundamentals/course/05-starwars-redux)
 
-##### [Subscribe & Binding Action Creators](https://github.com/Unosquare-CoE-JavaScript/juan-manuel-acuna/tree/master/)
-
-##### [Combine Reducers](https://github.com/Unosquare-CoE-JavaScript/juan-manuel-acuna/tree/master/)
-
-##### [Enhancers](https://github.com/Unosquare-CoE-JavaScript/juan-manuel-acuna/tree/master/)
-
-##### [Enhancers exercise](https://github.com/Unosquare-CoE-JavaScript/juan-manuel-acuna/tree/master/)
-
-##### [Middleware](https://github.com/Unosquare-CoE-JavaScript/juan-manuel-acuna/tree/master/)
+##### [Dog Facts](https://github.com/Unosquare-CoE-JavaScript/juan-manuel-acuna/tree/training/Redux-fundamentals/course/06-dog-facts)
 
 ### Some important notes
 
 #### It´s relatively small
+
+<p align="center">
+  <img src="assets/the-redux-api.png" width="100%" />
+</p>
 
 It has 5 (formal) methods ... but the "_createStore_" method has also 4 more, so, really there are 9 methods.
 
@@ -55,3 +51,19 @@ It has 5 (formal) methods ... but the "_createStore_" method has also 4 more, so
 - It's just a JavaScript function.
 
 **_It's an anti pattern to have multiple stores (but we might split up into many reducers)._** **So, don't do that.**
+
+<p align="center">
+  <img src="assets/reducer.png" width="100%" />
+</p>
+
+<p align="center">
+  <img src="assets/combine-reducer.png" width="100%" />
+</p>
+
+<p align="center">
+  <img src="assets/enhancer.png" width="100%" />
+</p>
+
+<p align="center">
+  <img src="assets/snack.png" width="100%" />
+</p>

@@ -6,7 +6,7 @@
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png" width="120" />
 </p>
 
-<h2 align='center'>You Don't Know Javascript</h2>
+<h2 align='center'>You Don't Know Javascript Yet: Get Stated</h2>
 
 ### 1. [Chapter 1](https://github.com/Unosquare-CoE-JavaScript/juan-manuel-acuna/tree/training/YDNJSY_Get_Started/chapter_1.md)
 
